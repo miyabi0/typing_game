@@ -1,0 +1,59 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'sarial';
+	src: url('../font/sarial.ttf');
+}
+
+body,h1,p,span{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sarial;
+	text-align: left;
+	color: white;
+}
+
+#video{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+
+#wrap{
+	z-index: 1;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+h1{
+	font-size: 50px;
+}
+
+#target{
+	white-space: nowrap;
+	padding: 20px 0;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+#space{
+	font-size: 100px;
+}
+
+p{
+	font-size: 30px;
+}
+
+#info{
+	padding-bottom: 30px;
+}
